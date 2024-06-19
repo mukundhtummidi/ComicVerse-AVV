@@ -19,7 +19,6 @@ body{
 }
 header{
     width:100%;
-
     height: 80px;
     display: flex;
     justify-content: space-between;
@@ -381,7 +380,7 @@ section .main .main_img img{
 }
 
 .arrivals .arrivals_box .arrivals_card:hover{
-    box-shadow: 0 0 40px rgb(218, 35, 35);
+    box-shadow: 0 0 45px rgb(218, 35, 35);
 }
 
 .arrivals .arrivals_box .arrivals_card .arrivals_image{
@@ -466,7 +465,7 @@ section .main .main_img img{
     font-size: 120px;
     position: relative;
     bottom: 20px;
-    color: #ab424289;
+    color: #d0727240;
 }
 
 .reviews .review_box .review_card .card_top img{

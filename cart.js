@@ -22,7 +22,6 @@ let generateCartItems = () => {
            <img width="100" src=${img} alt="" />
          </div>
                 <p >$ ${price}</p>
-      
         <button  class='rmv_btn'  onclick="removeItem(${id})">Remove</button>
       </div>
       `;
@@ -50,7 +49,7 @@ let Total_amount = () => {
   label.innerHTML = `
     <div class='checkout_area'>
        <h2>Total Price : $ ${total_amount} </h2>
-       <button class='checkout'>Checkout</button>
+       <a href="signup.html"><button class='checkout'>Checkout</button></a>
     </div>
   `
 };

@@ -24,9 +24,21 @@
                 </div>
                 <div class="search-box">
                     <form>
-                        <input type="text" name="search" id="srch" placeholder="Search">
-                        <button type="submit"><i class="fa fa-search"></i></button>
+                        <input type="Search" list="selection" placeholder="Search">
+                        <datalist id="selection">
+                            <a href="#uid2"><option value="Home"></option></a>
+                            <a href="#uid2"><option value="Movies"></option></a>
+                            <a href="#uid3"><option value="Charecters"></option></a>
+                            <a href="#uid4"><option value="Store"></option></a>
+                            <a href="#uid5"><option value="Cart"></option></a>
+                        </datalist>
+                       
                     </form>
+                    <a href="movies.html">
+                        <button type="submit">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </a>
                 </div>
                 <ul>
                     <li><a href="home.html" class="nav_items">Home</a></li>
@@ -51,6 +63,7 @@
         <div>
             <!--Enter your code here-->
             <section>
+                <div></div>
                 <div class="main">
                     <div class="main_tag">
                         <h1>WELCOME TO<br><span>COMIC VERSE</span></h1>
@@ -70,7 +83,7 @@
 
             </section>
             <!--Services-->
-            <div class="services">
+            <div class="services" id="uid1">
 
                 <div class="services_box">
 
@@ -118,7 +131,7 @@
             <br>
             <!--About-->
 
-            <div class="about">
+            <div class="about" id="uid2">
 
                 <div class="about_image">
                     <img src="https://res.cloudinary.com/de27xvxon/image/upload/v1715765979/about_vkd5uk.png">
@@ -141,7 +154,7 @@
 
             <!--Books-->
 
-            <div class="featured_boks">
+            <div class="featured_boks" id="uid3">
 
                 <h1>Featured Books</h1>
 
@@ -405,7 +418,7 @@
 
             <!--Arrivals-->
 
-            <div class="arrivals">
+            <div class="arrivals" id="uid4">
                 <h1>New Arrivals</h1>
 
                 <div class="arrivals_box">
@@ -592,10 +605,10 @@
             <br><br><br><br><br>
 
 
-            <!--reviews-->
+            <!--Our Team Members-->
 
-            <div class="reviews">
-                <h1>Reviews</h1>
+            <div class="reviews" id="uid5">
+                <h1>Our Team Members</h1>
 
                 <div class="review_box">
 
@@ -609,13 +622,7 @@
                             <p>"An amazing selection of comics! The staff is knowledgeable and helpful. I found some
                                 rare gems here. Highly recommended for any comic enthusiast!"
                             </p>
-                            <div class="review_icon">
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star-half-stroke"></i>
-                            </div>
+                            
                         </div>
                     </div>
 
@@ -629,13 +636,7 @@
                             <p>"Great variety of comics catering to all interests. Easy checkout process and fast
                                 shipping. A go-to for comic lovers!"
                             </p>
-                            <div class="review_icon">
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star-half-stroke"></i>
-                            </div>
+                            
                         </div>
                     </div>
 
@@ -643,20 +644,14 @@
                         <i class="fa-solid fa-quote-right"></i>
                         <div class="card_top">
                             <img
-                                src="https://res.cloudinary.com/de27xvxon/image/upload/v1715273886/istockphoto-1222357475-612x612_sntexe.jpg">
+                                src="https://res.cloudinary.com/de27xvxon/image/upload/v1718966374/WhatsApp_Image_2024-06-21_at_16.06.38_dad2d9e7_xurrts.jpg">
                         </div>
                         <div class="card">
                             <h2>Sathwik</h2>
                             <p>"Fantastic comic store! The collection is extensive, and they have excellent customer
                                 service. Always a pleasure shopping here!"
                             </p>
-                            <div class="review_icon">
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star-half-stroke"></i>
-                            </div>
+                           
                         </div>
                     </div>
 
@@ -671,13 +666,7 @@
                             <p>"Love this comic store! It's my favorite place to find new releases and classic issues.
                                 The staff is friendly and always willing to help."
                             </p>
-                            <div class="review_icon">
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star-half-stroke"></i>
-                            </div>
+                        
                         </div>
                     </div>
 
@@ -690,7 +679,7 @@
 
             <!--Blog-->
 
-            <div class="blog">
+            <div class="blog" id="uid6">
                 <h1>Our Blog</h1>
                 <div class="blog_box">
 
@@ -801,7 +790,7 @@
                         thrilling adventures, and hilarious characters. Join our community for a world of
                         entertainment!"
                     </p>
-                    <div class="footer-icons">
+                   <div class="footer-icons">
                         <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
                         <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
                         <a href="https://in.linkedin.com/"><i class="fab fa-linkedin"></i></a>

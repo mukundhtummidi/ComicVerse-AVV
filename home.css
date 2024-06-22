@@ -343,9 +343,6 @@ section .main .main_img img{
     border-radius: 10px;
 }
 
-
-
-
 /*arrivals*/
 
 .arrivals{
@@ -378,6 +375,8 @@ section .main .main_img img{
     margin: auto 20px;
     color: rgba(255, 255, 255, 0.673);
 }
+
+
 
 .arrivals .arrivals_box .arrivals_card:hover{
     box-shadow: 0 0 45px rgb(218, 35, 35);
@@ -428,7 +427,7 @@ section .main .main_img img{
 
 
 
-/*reviews*/
+/*our team names*/
 
 .reviews{
     width: 100%;
@@ -674,7 +673,7 @@ footer {
 .footer-distributed .footer-center p a {
     color:rgb(218, 35, 35);
     text-decoration: none;
-    ;
+    
 }
 
 /* Footer Right */
